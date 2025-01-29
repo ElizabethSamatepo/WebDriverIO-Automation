@@ -1,3 +1,5 @@
+import which = require("which");
+
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
@@ -56,3 +58,10 @@ for (let i = 5; i >= 1; i--) {
   factorialOfFive = factorialOfFive * i;
 }
 console.log(factorialOfFive);
+
+
+let itsHot = true;
+
+while (itsHot) {
+    console.log(`its hot`)
+}
